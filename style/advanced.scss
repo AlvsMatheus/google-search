@@ -79,7 +79,7 @@ header{
         width: 140px;
     }
 }
-.inputs{
+.inputs-advanced{
     border: 1px solid #5F6368;
     color: white;
     width: 270px;
@@ -88,7 +88,7 @@ header{
     text-indent: 5px;
 } 
 
-.inputs:focus{
+.inputs-advanced:focus{
     border: 1px solid #81b1ff;
 }
 
@@ -103,12 +103,10 @@ header{
         white-space: nowrap;
     }
 }
-
-
-footer {
+footer.advanced {
     position: fixed;
     inset: auto 0 0 0;
-    color: $white;
+    color: black;
     background-color: #171717;
     width: 100%;
     height: auto;
@@ -119,7 +117,7 @@ footer {
         font-size: 12px;
     }
     a{
-        color: $white;
+        color: #878b92;
         text-decoration: none;
         font-size: 10px;
     }
