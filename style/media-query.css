@@ -1,0 +1,19 @@
+
+@media (max-height: 450px) and (orientation: landscape) {
+    div.container{
+        height: 50vw;
+        
+    }
+    footer{
+        height: 100px;
+    }
+    div.search input{
+        width: 480px;
+}
+}
+
+@media screen and (max-width: 460px) {
+    div.search input{
+            width: 190px;
+    }
+}
