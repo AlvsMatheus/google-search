@@ -1,0 +1,44 @@
+
+@media (max-height: 450px) and (orientation: landscape) {
+    div.container{
+        height: 50vw;
+        
+    }
+    footer{
+        height: 100px;
+    }
+    div.search input{
+        width: 480px;
+    }
+
+    body{
+        overflow: auto;
+    }
+
+    .inputs-container{
+        height: 55vh;
+    }
+    footer.advanced{
+        margin-top: 40px;
+        height: 90px;
+        position: static;
+    }
+}
+@media screen and (max-width: 460px) {
+    div.search input{
+            width: 190px;
+    }
+    .case{
+        width: 100% ;
+    }
+    .label{
+    width: 100px;
+    }
+    .inputs-advanced{
+        width: 200px;
+    }
+    .button{
+        padding:20px 38px 0 0;
+    }
+}
+

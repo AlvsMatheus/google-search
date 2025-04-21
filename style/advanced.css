@@ -1,0 +1,114 @@
+header nav div p.google {
+  font-family: "roboto", Arial, Helvetica, sans-serif;
+  font-weight: 300;
+  font-size: 17px;
+}
+
+.labelinput .label {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #878b92;
+  font-size: 10px;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #202124;
+  color: white;
+  overflow: hidden;
+}
+
+header {
+  border-bottom: 2px solid #171717;
+}
+header nav div p {
+  margin: 0px;
+}
+header nav div a {
+  color: #FFFFFF;
+  text-decoration: none;
+  font-size: 13px;
+}
+
+.nav-red {
+  color: rgb(255, 131, 131);
+  padding-left: 35px;
+}
+
+.case {
+  width: 500px;
+}
+
+.inputs-container {
+  height: 50vh;
+  width: 100%;
+  padding: 25px 0px 0px 35px;
+}
+.inputs-container div p {
+  font-size: 14px;
+}
+
+.labelinput {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.labelinput .label {
+  word-wrap: normal;
+  white-space: wrap;
+  width: 140px;
+}
+
+.inputs-advanced {
+  border: 1px solid #5F6368;
+  color: white;
+  width: 270px;
+  height: 20px;
+  font-size: 9px;
+  text-indent: 5px;
+}
+
+.inputs-advanced:focus {
+  border: 1px solid #81b1ff;
+}
+
+.button {
+  width: 100%;
+  padding: 20px 90px 0 0;
+}
+.button .blue-button {
+  background-color: #81b1ff;
+  font-size: 10px;
+  font-weight: 500;
+  padding: 5px 10px;
+  white-space: nowrap;
+}
+
+footer {
+  position: fixed;
+  inset: auto 0 0 0;
+  color: black;
+  background-color: #171717;
+  width: 100%;
+  height: auto;
+}
+footer .country {
+  border-bottom: 1px solid #292a2e;
+  height: 100%;
+  width: 100%;
+  font-size: 12px;
+}
+footer a {
+  color: #878b92;
+  text-decoration: none;
+  font-size: 10px;
+}
+footer .below-links {
+  border-top: 2px solid #202124;
+}
+
+/*# sourceMappingURL=advanced.css.map */

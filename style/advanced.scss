@@ -1,0 +1,128 @@
+$color-1: #202124;
+$color-2: #171717;
+$white: #FFFFFF;
+$search-back: #4a4d52;
+$below-search: #303134;
+
+%google{
+    font-family: "roboto",Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 17px;
+}
+
+%little-word{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #878b92;
+    font-size: 10px;
+}
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: $color-1;
+    color: white;
+    overflow: hidden;
+}
+
+header{
+    border-bottom: 2px solid $color-2;
+    nav {
+    div{
+        p{
+            margin: 0px;
+        }
+        p.google{
+            @extend %google
+        }
+        a{
+            color: #FFFFFF;
+            text-decoration: none;
+            font-size: 13px;
+        }
+        }
+    }
+}
+
+.nav-red{
+    color: rgb(255, 131, 131);
+    padding-left: 35px;
+}
+
+.case{
+    width: 500px;
+}
+
+.inputs-container {
+    height: 50vh;
+    width: 100%;
+    padding: 25px 0px 0px 35px;
+    div{
+        p{
+            font-size: 14px;
+        }
+    }
+}
+
+
+.labelinput{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .label{
+        @extend %little-word;
+        word-wrap: normal;
+        white-space: wrap;
+        width: 140px;
+    }
+}
+.inputs-advanced{
+    border: 1px solid #5F6368;
+    color: white;
+    width: 270px;
+    height: 20px;
+    font-size: 9px;
+    text-indent: 5px;
+} 
+
+.inputs-advanced:focus{
+    border: 1px solid #81b1ff;
+}
+
+.button{
+    width: 100%;
+    padding:20px 90px 0 0;
+    .blue-button{
+        background-color: #81b1ff;
+        font-size: 10px;
+        font-weight: 500;
+        padding: 5px 10px;
+        white-space: nowrap;
+    }
+}
+footer.advanced {
+    position: fixed;
+    inset: auto 0 0 0;
+    color: black;
+    background-color: #171717;
+    width: 100%;
+    height: auto;
+    .country{
+        border-bottom:1px solid #292a2e;
+        height: 100%;
+        width: 100%;
+        font-size: 12px;
+    }
+    a{
+        color: #878b92;
+        text-decoration: none;
+        font-size: 10px;
+    }
+    .below-links{
+        border-top: 2px solid $color-1;
+        
+    }
+}
